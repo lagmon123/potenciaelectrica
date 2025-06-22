@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ley de Watt - Blog</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Ley de Watt: ¿Qué es la potencia eléctrica?</h1>
+  </header>
+
+  <article>
+
+    <!-- Bloque 1: Quién fue Watt -->
+    <section class="two-columns">
+      <div class="text-column">
+        <h2>¿Quién fue James Watt?</h2>
+        <p>James Watt fue un inventor, ingeniero mecánico y químico escocés que vivió en el siglo XVIII. Aunque no descubrió la energía, transformó para siempre el mundo industrial al mejorar significativamente la máquina de vapor. Su apellido se convirtió en el nombre de la unidad de <strong>potencia</strong> en su honor: el <strong>watt (W)</strong>.</p>
+      </div>
+      <div class="img-column">
+        <img src="img/640px-James_Watt_gravure.jpg" alt="James_Watt">
+      </div>
+    </section>
+    <section class="two-columns">
+      <div class="text-column">
+        <p>James Watt nació el 19 de enero de 1736 en Greenock, Escocia, y falleció el 25 de agosto de 1819 en Birmingham, Inglaterra.</p>
+      </div>  
+      <div class="fact-card">
+        Aunque James Watt no inventó la máquina de vapor, sí logró que fuera realmente eficiente, impulsando la Revolución Industrial.
+      </div>
+    </section>
+
+    <!-- Bloque 2: Qué es la potencia -->
+    <section class="two-columns">
+      <div class="text-column">
+        <h2>¿Qué es la potencia eléctrica?</h2>
+        <p>En física, la <strong>potencia</strong> es la cantidad de energía que se transfiere o transforma por unidad de tiempo. En el caso de la electricidad, la <strong>potencia eléctrica</strong> mide cuánta energía consume o entrega un dispositivo en determinado tiempo.</p>
+        <p>La potencia se mide en <strong>vatios (W)</strong> y se calcula con esta fórmula:</p>
+        <p><strong>P = V × I</strong></p>
+      </div>
+      <div class="fact-card">
+        Un foco tradicional de 60 W consume 60 joules de energía por segundo.
+      </div>
+    </section>
+
+    <!-- Bloque 3: Cómo se deduce -->
+    <section class="two-columns">
+      <div class="text-column">
+        <h2>¿Cómo se deduce la fórmula de Watt?</h2>
+        <p>La fórmula se basa en la idea de trabajo eléctrico. Cuando una carga eléctrica se mueve a través de un circuito, se realiza trabajo. Ese trabajo se calcula como:</p>
+        <p><strong>E = V × Q</strong></p>
+        <p>Y como la corriente <strong>I = Q / t</strong>, entonces:</p>
+        <p><strong>P = E / t = (V × Q) / t = V × (Q / t) = V × I</strong></p>
+        <p>Así llegamos a: <strong>P = V × I</strong></p>
+      </div>
+      <div class="fact-card">
+        La fórmula puede reorganizarse para calcular V o I: V = P / I, I = P / V.
+      </div>
+    </section>
+
+    <!-- Bloque 4: Relación con energía -->
+    <section class="two-columns">
+      <div class="text-column">
+        <h2>¿Cómo se relaciona con energía y tiempo?</h2>
+        <p>La potencia es una forma de expresar <strong>velocidad de consumo o entrega de energía</strong>. Por ejemplo, si un equipo funciona a 1000 W durante una hora:</p>
+        <p><strong>Energía = Potencia × Tiempo = 1000 W × 3600 s = 3.600.000 J</strong></p>
+        <p>Eso equivale a 1 kilovatio-hora (kWh).</p>
+      </div>
+      <div class="fact-card">
+        1 kWh equivale a hervir 70 litros de agua desde temperatura ambiente hasta ebullición.
+      </div>
+    </section>
+
+    <!-- Bloque 5: Aplicaciones -->
+    <section class="two-columns">
+      <div class="text-column">
+        <h2>Aplicaciones comunes</h2>
+        <ul>
+          <li>Microondas: 800–1200 W</li>
+          <li>Secador de pelo: 1500–2000 W</li>
+          <li>Aire acondicionado: 1000–3000 W</li>
+          <li>Computadora de escritorio: 250–500 W</li>
+          <li>Bombilla LED: 6–12 W</li>
+        </ul>
+    </section>
+
+    <!-- Bloque 6: Calculadora -->
+    <section class="two-columns">
+      <div class="text-column">
+        <h2>¿Querés calcularlo vos mismo?</h2>
+        <p>Usá nuestra herramienta online para calcular la <strong>potencia eléctrica</strong> si conocés el voltaje y la corriente.</p>
+        <p><a href="https://lagmon123.github.io/Conversor-y-Calculadora-Online/">Ir a la calculadora</a></p>
+    </section>
+
+    <!-- Enlaces a otros blogs -->
+    <section id="otros-blogs">
+      <h2>Otros blogs que te pueden interesar</h2>
+      <ul>
+        <li><a href="index.html">Ley de Ohm</a></li>
+        <li><a href="ley-de-joule.html">Ley de Joule</a> (próximamente)</li>
+        <li><a href="temperatura.html">Temperatura</a> (próximamente)</li>
+        <li><a href="presion.html">Presión</a> (próximamente)</li>
+      </ul>
+    </section>
+
+    <!-- Feedback -->
+    <section id="feedback">
+      <h2>Dejanos tu feedback</h2>
+      <form action="https://formspree.io/f/mpwrjejr" method="POST">
+        <label>
+          Tu email:
+          <input type="email" name="email" required>
+        </label>
+        <label>
+          Tu mensaje:
+          <textarea name="message" rows="5" required></textarea>
+        </label>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+  </article>
+
+</body>
+</html>
